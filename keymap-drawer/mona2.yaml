@@ -37,9 +37,9 @@ layers:
   - LCTRL
   - LEFT WIN
   - LEFT ALT
-  - {t: LANG2, h: '4'}
-  - {t: SPACE, h: '2'}
-  - {t: '&to_layer_0 LANG1', h: '3'}
+  - {t: LANG2, h: '3'}
+  - SPACE
+  - {t: '&to_layer_0 LANG1', h: '2'}
   - BACKSPACE
   - {t: ENTER, h: '1'}
   - {t: ESCAPE, h: '5'}
@@ -124,8 +124,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -166,9 +166,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -211,7 +211,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT CLR ALL
@@ -437,3 +437,5 @@ combos:
   k: {t: LEFT WIN, h: Gesture_L9}
 - p: [17, 29, 18, 19, 31, 10, 21]
   k: ''
+- p: [36, 38]
+  k: '4'
