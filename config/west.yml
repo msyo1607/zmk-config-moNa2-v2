@@ -33,7 +33,7 @@ manifest:
     - name: zmk-input-processor-keybind
       remote: zettaface
       revision: main
-       - name: zmk-mouse-gesture
+    - name: zmk-mouse-gesture
       remote: kot149
       revision: v1
     - name: zmk-listeners
