@@ -2,7 +2,7 @@
 #include <input/processors.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
 #include <physical_layouts.dtsi>
-#include <mouse-gesture.dtsi>   /* kot149 モジュール */
+#include <mouse-gesture.dtsi>
 
 / {
     chosen {
