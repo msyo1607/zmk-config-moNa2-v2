@@ -44,38 +44,38 @@ layers:
   - {t: ENTER, h: '1'}
   - {t: ESCAPE, h: '5'}
   '1':
-  - {t: ▽, type: trans}
+  - ESCAPE
   - '&'
-  - '*'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ;
+  - ':'
+  - '`'
+  - '='
   - '['
   - ']'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '`'
+  - +
+  - TAB
   - $
   - '%'
   - ^
-  - ''''
+  - '"'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '*'
   - (
   - )
-  - \
-  - {t: ▽, type: trans}
+  - '|'
+  - '-'
   - {t: '~', h: LSHFT}
   - '!'
   - '@'
   - '#'
-  - {t: ▽, type: trans}
+  - ''''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '{'
   - '}'
-  - '|'
+  - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
