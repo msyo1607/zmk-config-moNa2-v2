@@ -37,9 +37,9 @@ layers:
   - LCTRL
   - LEFT WIN
   - LEFT ALT
-  - {t: LANG2, h: '3'}
+  - {t: LANG1, h: '3'}
   - SPACE
-  - {t: '&to_layer_0 LANG1', h: '2'}
+  - {t: '&to_layer_0 LC(LANG2)', h: '2'}
   - BACKSPACE
   - {t: ENTER, h: '1'}
   - {t: ESCAPE, h: '5'}
