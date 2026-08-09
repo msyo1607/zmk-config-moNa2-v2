@@ -145,7 +145,7 @@ layers:
   - DOWN
   - RIGHT ARROW
   - END
-  - Ctl+Gui+PRINTSCREEN
+  - Gui+Sft+S
   - {t: ▽, type: trans}
   - Gui+LEFT ARROW
   - Gui+DOWN ARROW
@@ -157,7 +157,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+PRINTSCREEN
+  - PRINTSCREEN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
