@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - ;
+  - PAGE UP
   - H
   - J
   - K
@@ -28,7 +28,7 @@ layers:
   - V
   - B
   - {t: TAB, h: '5'}
-  - '"'
+  - PAGE DOWN
   - N
   - M
   - ','
@@ -59,7 +59,7 @@ layers:
   - '%'
   - ^
   - ''''
-  - {t: ▽, type: trans}
+  - HOME
   - '*'
   - (
   - )
@@ -71,7 +71,7 @@ layers:
   - '#'
   - '`'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - END
   - {t: ▽, type: trans}
   - '{'
   - '}'
