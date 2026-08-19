@@ -162,10 +162,10 @@
 
         layer_1 {
             bindings = <
-&kp ESCAPE       &kp AMPERSAND  &kp BACKSLASH  &kp PIPE   &kp DOUBLE_QUOTES                      &kp EQUAL     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COLON      &kp PLUS
-&kp TAB          &kp DOLLAR     &kp PERCENT    &kp CARET  &kp APOSTROPHE               &kp HOME  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &kp MINUS
-&mt LSHFT TILDE  &kp EXCL       &kp AT         &kp HASH   &kp GRAVE          &trans    &kp END   &trans        &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans         &trans
-&trans           &trans         &trans         &trans     &trans             &trans    &trans    &trans                                                                    &trans
+&kp NON_US_BACKSLASH  &kp CARET   &kp EXCLAMATION    &kp AMPERSAND     &kp PIPE                              &kp EQUAL          &kp PLUS         &kp ASTERISK  &kp PERCENT      &kp MINUS
+&kp LEFT_PARENTHESIS  &kp GRAVE   &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp TILDE                   &kp HOME  &kp LEFT_ARROW     &kp DOWN_ARROW   &kp UP_ARROW  &kp RIGHT_ARROW  &kp RIGHT_PARENTHESIS
+&mt LSHFT HASH        &kp DOLLAR  &kp AT             &kp LEFT_BRACE    &kp LEFT_BRACKET  &trans    &kp END   &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &trans        &trans           &trans
+&trans                &trans      &trans             &trans            &trans            &trans    &trans    &trans                                                             &trans
             >;
 
             sensor-bindings = <&scroll_right_left>;
@@ -173,10 +173,10 @@
 
         layer_2 {
             bindings = <
-&kp ESCAPE  &kp F7  &kp F8  &kp F9  &kp F12                    &kp EQUAL        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS
-&kp TAB     &kp F4  &kp F5  &kp F6  &kp F11            &trans  &kp KP_MULTIPLY  &kp N4        &kp N5        &kp N6        &kp MINUS
-&trans      &kp F1  &kp F2  &kp F3  &kp F10  &trans    &trans  &kp N0           &kp N1        &kp N2        &kp N3        &kp SLASH
-&trans      &trans  &trans  &trans  &trans   &trans    &trans  &trans                                                     &trans
+&kp F1        &kp F2        &kp F3        &kp F4        &kp F5                          &kp EQUAL     &kp PLUS      &kp ASTERISK  &kp PERCENT   &kp MINUS
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5            &trans  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&kp F6        &kp F7        &kp F8        &kp F9        &kp F10       &trans    &trans  &kp F11       &kp F12       &trans        &trans        &kp SLASH
+&trans        &trans        &trans        &trans        &trans        &trans    &trans  &trans                                                  &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
