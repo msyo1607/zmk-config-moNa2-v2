@@ -152,7 +152,7 @@
         default_layer {
             bindings = <
 &kp Q                             &kp W         &kp E         &kp R             &kp T                                                    &kp Y        &kp U  &kp I      &kp O    &lt 6 P
-&mt_exit_AML_on_tap LCTRL A       &kp S         &kp D         &kp F             &kp G                                     &kp PAGE_UP    &kp H        &kp J  &kp K      &kp L    &lt 7 SEMICOLON
+&mt_exit_AML_on_tap LCTRL A       &kp S         &kp D         &kp F             &kp G                                     &kp PAGE_UP    &kp H        &kp J  &kp K      &kp L    &lt 7 MINUS
 &mt_exit_AML_on_tap LEFT_SHIFT Z  &kp X         &kp C         &kp V             &kp B      &lt 5 TAB                      &kp PAGE_DOWN  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
 &kp LCTRL                         &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 LANGUAGE_2  &kp SPACE  &lt_to_layer_0 2 LANGUAGE_1    &kp BACKSPACE  &lt 1 ENTER                             &lt 5 ESCAPE
             >;
@@ -162,10 +162,10 @@
 
         layer_1 {
             bindings = <
-&kp NON_US_BACKSLASH  &kp CARET   &kp EXCLAMATION    &kp AMPERSAND     &kp PIPE                              &kp EQUAL          &kp PLUS         &kp ASTERISK  &kp PERCENT      &kp MINUS
-&kp LEFT_PARENTHESIS  &kp GRAVE   &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp TILDE                   &kp HOME  &kp LEFT_ARROW     &kp DOWN_ARROW   &kp UP_ARROW  &kp RIGHT_ARROW  &kp RIGHT_PARENTHESIS
-&mt LSHFT HASH        &kp DOLLAR  &kp AT             &kp LEFT_BRACE    &kp LEFT_BRACKET  &trans    &kp END   &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &trans        &trans           &trans
-&trans                &trans      &trans             &trans            &trans            &trans    &trans    &trans                                                             &trans
+&kp ESCAPE       &kp AMPERSAND    &kp BACKSLASH  &kp PIPE   &kp DOUBLE_QUOTES                      &kp EQUAL     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COLON      &kp PLUS
+&kp TAB          &kp DOLLAR       &kp PERCENT    &kp CARET  &kp SINGLE_QUOTE             &kp HOME  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &kp MINUS
+&mt LSHFT TILDE  &kp EXCLAMATION  &kp AT         &kp HASH   &kp GRAVE          &trans    &kp END   &trans        &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans         &trans
+&trans           &trans           &trans         &trans     &trans             &trans    &trans    &trans                                                                    &trans
             >;
 
             sensor-bindings = <&scroll_right_left>;
@@ -173,10 +173,10 @@
 
         layer_2 {
             bindings = <
-&kp F1        &kp F2        &kp F3        &kp F4        &kp F5                          &kp EQUAL     &kp PLUS      &kp ASTERISK  &kp PERCENT   &kp MINUS
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5            &trans  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&kp F6        &kp F7        &kp F8        &kp F9        &kp F10       &trans    &trans  &kp F11       &kp F12       &trans        &trans        &kp SLASH
-&trans        &trans        &trans        &trans        &trans        &trans    &trans  &trans                                                  &trans
+&kp ESCAPE  &kp F7  &kp F8  &kp F9  &kp F12                    &kp EQUAL     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS
+&kp TAB     &kp F4  &kp F5  &kp F6  &kp F11            &trans  &kp ASTERISK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
+&trans      &kp F1  &kp F2  &kp F3  &kp F10  &trans    &trans  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH
+&trans      &trans  &trans  &trans  &trans   &trans    &trans  &trans                                                  &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
